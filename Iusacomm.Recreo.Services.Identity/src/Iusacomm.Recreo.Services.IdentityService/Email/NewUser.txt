@@ -1,0 +1,10 @@
+Bienvenido a RECREO
+	
+Ahora podrás acceder a tu cuenta utilizando los siguientes datos
+
+Username: {Email}
+Password: {Password}
+
+Para confirmar su dirección de correo electrónico, haga clic en el siguiente enlace:
+
+{CallbackUrl}

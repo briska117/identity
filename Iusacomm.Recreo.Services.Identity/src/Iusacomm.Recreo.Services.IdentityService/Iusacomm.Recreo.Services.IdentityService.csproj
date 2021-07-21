@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <UserSecretsId>2dcb2f23-dbd2-440b-8190-4e219500378d</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\IdentityService%2528recreo%2529\Iusacomm.Recreo.Services.Identity\src\Iusacomm.Recreo.Services.IdentityService\images\email-logo.png" />
+    <None Include="..\..\..\..\IdentityService%2528recreo%2529\Iusacomm.Recreo.Services.Identity\src\Iusacomm.Recreo.Services.IdentityService\images\email_logo_2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iusacom.Tank.Services.CustomersServiceClient" Version="1.0.20" />
+    <PackageReference Include="Iusacom.Tank.Services.Middleware" Version="0.1.0" />
+    <PackageReference Include="Iusacom.Tank.Services.UsersServiceClient" Version="0.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+
+</Project>
